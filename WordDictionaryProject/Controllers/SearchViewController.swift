@@ -9,6 +9,7 @@ import UIKit
 
 class SearchViewController: UIViewController {
 
+//MARK: - Outlet Object Declaration
     @IBOutlet weak var acronymDetailsTableview: UITableView!
     @IBOutlet weak var acronymSearchBar: UISearchBar!
     private var serachViewModel: SearchViewModel!
