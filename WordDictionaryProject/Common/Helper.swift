@@ -1,8 +1,8 @@
 //
 //  Helper.swift
-//  SunBeltRentals
+//  WordDictionaryProject
 //
-//  Created by Sarath NS on 19/05/22.
+//  Created by User on 13/07/23.
 //
 
 import Foundation

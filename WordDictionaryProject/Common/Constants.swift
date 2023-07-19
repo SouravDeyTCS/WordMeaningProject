@@ -1,8 +1,8 @@
 //
 //  Constants.swift
-//  SunBeltRentals
+//  WordDictionaryProject
 //
-//  Created by Sarath NS on 18/05/22.
+//  Created by User on 13/07/23.
 //
 
 import Foundation
@@ -15,4 +15,15 @@ enum ApiURL: String {
 enum cellIdentifier: String {
     case WordMeaningCell = "WordTableViewCell"
 }
+
+enum Messages {
+    
+    /// API errors message
+    static let noInternet = "Internet appears to be offline. Try again after some times"
+    static let ResponseError = "Cloud server is not responding. Try again after some times"
+    static let requestNotFound = "Defination not found not found"
+    static let successmessage = "Successful"
+    
+}
+
 

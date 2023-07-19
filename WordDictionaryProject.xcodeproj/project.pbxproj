@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C26861B2A68017000F7F967 /* WordDictionaryProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26861A2A68017000F7F967 /* WordDictionaryProjectTests.swift */; };
 		9C2686252A68017000F7F967 /* WordDictionaryProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2686242A68017000F7F967 /* WordDictionaryProjectUITests.swift */; };
 		9C2686272A68017000F7F967 /* WordDictionaryProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2686262A68017000F7F967 /* WordDictionaryProjectUITestsLaunchTests.swift */; };
 		9C26864E2A6801F400F7F967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2686342A6801F300F7F967 /* Assets.xcassets */; };
@@ -22,9 +21,8 @@
 		9C2686572A6801F400F7F967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2686442A6801F400F7F967 /* LaunchScreen.storyboard */; };
 		9C2686582A6801F400F7F967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2686462A6801F400F7F967 /* Main.storyboard */; };
 		9C2686592A6801F400F7F967 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2686492A6801F400F7F967 /* Constants.swift */; };
-		9C26865A2A6801F400F7F967 /* ActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26864A2A6801F400F7F967 /* ActivityIndicatorPresenter.swift */; };
-		9C26865B2A6801F400F7F967 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26864B2A6801F400F7F967 /* Extensions.swift */; };
 		9C26865C2A6801F400F7F967 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26864C2A6801F400F7F967 /* Helper.swift */; };
+		9C26865E2A687E1A00F7F967 /* ViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26865D2A687E1A00F7F967 /* ViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +46,6 @@
 		9C2686002A68016D00F7F967 /* WordDictionaryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDictionaryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2686112A68016F00F7F967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C2686162A68017000F7F967 /* WordDictionaryProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordDictionaryProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C26861A2A68017000F7F967 /* WordDictionaryProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionaryProjectTests.swift; sourceTree = "<group>"; };
 		9C2686202A68017000F7F967 /* WordDictionaryProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordDictionaryProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2686242A68017000F7F967 /* WordDictionaryProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionaryProjectUITests.swift; sourceTree = "<group>"; };
 		9C2686262A68017000F7F967 /* WordDictionaryProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionaryProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -64,9 +61,8 @@
 		9C2686452A6801F400F7F967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2686472A6801F400F7F967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C2686492A6801F400F7F967 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		9C26864A2A6801F400F7F967 /* ActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
-		9C26864B2A6801F400F7F967 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9C26864C2A6801F400F7F967 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9C26865D2A687E1A00F7F967 /* ViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +131,7 @@
 		9C2686192A68017000F7F967 /* WordDictionaryProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				9C26861A2A68017000F7F967 /* WordDictionaryProjectTests.swift */,
+				9C26865D2A687E1A00F7F967 /* ViewModelTest.swift */,
 			);
 			path = WordDictionaryProjectTests;
 			sourceTree = "<group>";
@@ -220,8 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				9C2686492A6801F400F7F967 /* Constants.swift */,
-				9C26864A2A6801F400F7F967 /* ActivityIndicatorPresenter.swift */,
-				9C26864B2A6801F400F7F967 /* Extensions.swift */,
 				9C26864C2A6801F400F7F967 /* Helper.swift */,
 			);
 			path = Common;
@@ -367,14 +361,12 @@
 			files = (
 				9C2686542A6801F400F7F967 /* AppDelegate.swift in Sources */,
 				9C2686552A6801F400F7F967 /* SceneDelegate.swift in Sources */,
-				9C26865A2A6801F400F7F967 /* ActivityIndicatorPresenter.swift in Sources */,
 				9C2686562A6801F400F7F967 /* SearchViewController.swift in Sources */,
 				9C2686532A6801F400F7F967 /* DataModel.swift in Sources */,
 				9C2686502A6801F400F7F967 /* SearchViewModel.swift in Sources */,
 				9C2686512A6801F400F7F967 /* WordTableViewCell.swift in Sources */,
 				9C2686522A6801F400F7F967 /* ApiService.swift in Sources */,
 				9C26864F2A6801F400F7F967 /* WordTableViewDataSource.swift in Sources */,
-				9C26865B2A6801F400F7F967 /* Extensions.swift in Sources */,
 				9C2686592A6801F400F7F967 /* Constants.swift in Sources */,
 				9C26865C2A6801F400F7F967 /* Helper.swift in Sources */,
 			);
@@ -384,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C26861B2A68017000F7F967 /* WordDictionaryProjectTests.swift in Sources */,
+				9C26865E2A687E1A00F7F967 /* ViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

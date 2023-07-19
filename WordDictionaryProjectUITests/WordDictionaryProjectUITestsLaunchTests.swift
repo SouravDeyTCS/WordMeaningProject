@@ -2,7 +2,7 @@
 //  WordDictionaryProjectUITestsLaunchTests.swift
 //  WordDictionaryProjectUITests
 //
-//  Created by Satabdi Chatterjee on 19/07/23.
+//  Created by User on 19/07/23.
 //
 
 import XCTest

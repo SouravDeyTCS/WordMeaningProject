@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  AcronymDetailsProject
+//  WordDictionaryProject
 //
 //  Created by User on 13/07/23.
 //

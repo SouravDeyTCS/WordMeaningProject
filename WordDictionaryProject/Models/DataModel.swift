@@ -1,6 +1,6 @@
 //
 //  DataModel.swift
-//  AcronymDetailsProject
+//  WordDictionaryProject
 //
 //  Created by User on 17/07/23.
 //
